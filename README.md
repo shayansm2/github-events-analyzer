@@ -1,6 +1,4 @@
-# Data Engineering Zoomcamp Project
-
-## GitHub Events Analyzer
+# GitHub Events Analyzer
 
 ![schema.png](files/overview.png)
 
@@ -116,7 +114,7 @@ docker compose up -d
 ```bash
 mvn clean install
 ```
-   
+
 6. go to the java project directory and run the kafka producer
 
 ```bash
@@ -135,7 +133,7 @@ java GitHubEventElasticSearchIndexer
 8. checkout the project using this table
 
 | address                                                        | usage                                                            |
-|----------------------------------------------------------------|------------------------------------------------------------------|
+| -------------------------------------------------------------- | ---------------------------------------------------------------- |
 | localhost:9092                                                 | redpanda node                                                    |
 | [localhost:8080](localhost:8080)                               | redpanda console                                                 |
 | [localhost:9200](localhost:9200)                               | elasticsearch node                                               |
