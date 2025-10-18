@@ -1,1 +1,0 @@
-select * from public.green_taxi;
